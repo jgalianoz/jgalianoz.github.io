@@ -1,10 +1,3 @@
-/*!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-
-/*--- reset code ---*/
 body{
 	padding:0;
 	margin:0;
@@ -26,10 +19,10 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
-}	
+}
 p{
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -253,39 +246,6 @@ h3.title span:after{
     min-height: 428px;
     padding: 56px 60px 0;
 }
-.progress {
-    height: 8px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    background-color: #fff;
-    border-radius: 2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-.progress-bar {
-    float: left;
-    width: 0;
-    height: 100%;
-    font-size: 12px;
-    line-height: 20px;
-    color: #fff;
-    text-align: center;
-    background-color: #3BC391;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: width .6s ease;
-    -o-transition: width .6s ease;
-    transition: width .6s ease;
-}
-
-.progress-gds {
-    margin-top: 18px;
-}
-.progress-gds h5 {
-    color: #fff;
-    font-size: 14px;
-    margin-bottom: 17px;
-}
 .creative h4 {
     font-size: 24px;
     color: #fff;
@@ -295,16 +255,15 @@ h3.title span:after{
     color: #fff;
     font-size: 18px;
     line-height: 1.9em;
-    font-style: italic;
 }
 #about {
     background:#2F79C3;
 }
 .more a {
-    font-size: 1em;
-    color: #fff;
-    text-decoration: none;
-    padding:12px 30px;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding:12px 30px;
 	outline: none;
 }
 .more a:hover {
@@ -408,7 +367,7 @@ h3.title span:after{
 	background: #1f1e1e;
 }
 .w3ls-agile-service-grid:nth-child(3){
-	   
+
     background: #1d1c1c;
 }
 .w3ls-agile-service-grid:nth-child(4){
@@ -458,7 +417,7 @@ ul.social-icons3{
 .social-icons3 li{
 	display:inline-block;
 }
-.social-icons3 li a{  
+.social-icons3 li a{
     display: block;
     height: 30px;
     width: 30px;
@@ -571,7 +530,7 @@ ul.social-icons3{
 
 /* Common style */
 .grid figure {
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 	margin: 10px 0;
 	height: auto;
@@ -1150,7 +1109,7 @@ ul.social-icons3.two li a {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1550,7 +1509,7 @@ ul.social-icons3.two li a {
 		margin: 0 18%;
 	}
 	.creative {
-	   
+
 		min-height: 377px;
 		padding: 41px 34px 0;
 	}
@@ -1682,7 +1641,7 @@ ul.social-icons3.two li a {
 	}
 }
 @media (max-width:384px){
-	
+
 	 .staff-grid {
 		text-align: center;
 		width:90%;
@@ -1709,7 +1668,7 @@ ul.social-icons3.two li a {
 }
 }
 @media (max-width:375px){
-	
+
 	 h2.tittle {
 		font-size: 1.2em;
 		line-height: 1.4em;
