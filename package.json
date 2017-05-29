@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "styles": "stylus -u nib -c -w -o css/ css/stylus/main.styl"
   },
   "repository": {
     "type": "git",
