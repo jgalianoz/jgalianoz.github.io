@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "styles": "stylus -u nib -c -w -o css/ css/stylus/main.styl"
+    "styles": "stylus -u nib -c -w -o public/css src/stylus/main.styl",
+    "build": "browserify -g uglifyify src/js/index.js > public/js/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jgalianoz/jgalianoz.github.io/issues"
   },
-  "homepage": "https://github.com/jgalianoz/jgalianoz.github.io#readme"
+  "homepage": "https://github.com/jgalianoz/jgalianoz.github.io#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "uglifyify": "^3.0.4"
+  }
 }

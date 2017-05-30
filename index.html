@@ -11,7 +11,7 @@
   maravilloso lenguaje, encantado de compartir en comunidades y así aprender de muchas personas." />
   <!-- css links -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link href="css/main.css" rel="stylesheet" />
+  <link href="public/css/main.css" rel="stylesheet" />
   <!-- /css links -->
 
   <!-- font files -->
@@ -85,7 +85,7 @@
 				<div class="creative">
 					<h4>VEN Y CONOCE MAS DE MI</h4>
           <img
-            src="./images/manuel.jpg"
+            src="public/images/manuel.jpg"
             alt="Manuel Galindez"
             width="150"
             height="150"
@@ -112,7 +112,7 @@
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
 				<h4>Más sobre mí...</h4>
-				<img src="images/community.jpg" class="img-responsive">
+				<img src="public/images/community.jpg" class="img-responsive">
 				<p>
           Como mencione anteriormente gran parte de mi conocimiento se lo debo a internet,
           donde he contado con el apoyo de grandes desarrolladores que me han ayudado a mejorar
@@ -302,22 +302,12 @@
 <a href="#myPage" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 <!-- js files -->
-<script src="js/jquery-2.2.3.min.js"></script>
-
-
-<script src="js/lightbox-plus-jquery.min.js"></script>
-
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-
-
-<script src="js/bootstrap.js"></script>
+<div>
+  <script src="src/js/lib/jquery.js"></script>
+  <script src="src/js/lib/lightbox.js"></script>
+  <script src="src/js/lib/bootstrap.js"></script>
+  <script src="public/js/bundle.js"></script>
+</div>
 <!-- /js files -->
 </body>
 </html>
