@@ -20,5 +20,8 @@
   "devDependencies": {
     "browserify": "^14.4.0",
     "uglifyify": "^3.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.16.1"
   }
 }
